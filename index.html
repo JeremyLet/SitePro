@@ -1,14 +1,196 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Jérémy Letisserand - Développeur de solutions numériques</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="">
+                    <div class="logo">Jérémy Letisserand</div>
+                    <div class="logoSub">Développeur de Solutions Numériques</div>
+                </div>
+                <div class="nav-links">
+                    <a href="#skills">Compétences</a>
+                    <a href="#services">Services</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </nav>
 
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>Qui suis-je ?</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-photo">
+                    <img src="idpic.png" alt="Photo de Jérémy Letisserand">
+                </div>
+                <p>Bonjour, je suis Jérémy Letisserand.</p>
+                <p>Passionné de développement, j'accompage mes clients au quotidiens </p>
+                <p>Mon objectif est de vous accompagner pour vous fournir la solution technique adaptée à vos besoins.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Prêt à commencer votre projet ?</h2>
+                <p>Je conçois sur mesure la réponse à vos envies.</p>
+                <a href="#contact" class="btn">Contactez-moi</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Mes Services</h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Développement sur mesure</h3>
+                    <p>Création de solutions web personnalisées adaptées à vos besoins spécifiques.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Dépannage et optimisations web</h3>
+                    <p>Résolution de problèmes techniques et amélioration de performances.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <h3>Formations et accompagnement</h3>
+                    <p>Formation et accompagnement dédié pour votre maîtrise du web.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fab fa-wordpress"></i>
+                    </div>
+                    <h3>Développement WordPress</h3>
+                    <p>Création de sites vitrines, blogs et e-commerce sous WordPress.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Compétences -->
+    <section id="skills">
+        <div class="container">
+            <div class="section-title">
+                <h2>Mes Compétences</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3>HTML/CSS</h3>
+                    <p>Création de pages web avec effets de style</p>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <h3>JavaScript</h3>
+                    <p>Développement d'interfaces interactives</p>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <i class="fab fa-wordpress"></i>
+                    </div>
+                    <h3>WordPress</h3>
+                    <p>Création par Wordpress, dépannages et optimisations</p>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>Solutions sur mesure</h3>
+                    <p>Développement adapté avec les bonnes technologies</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contactez-moi</h2>
+            </div>
+            <div class="contact-info">
+                <h3>Travaillons ensemble</h3>
+                <p> <a href="mailto:contact@exemple.com" class="email-button"><i class="fas fa-envelope"></i>
+                        Contactez-moi par email</a>
+                </p>
+            </div>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Votre nom</label>
+                    <input type="text" id="name" placeholder="Votre nom" required>
+                </div>
+                <div class="form-group">
+                    <label for="telephone">Votre téléphone</label>
+                    <input type="tel" id="email" placeholder="Votre téléphone" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Votre email</label>
+                    <input type="email" id="email" placeholder="Votre email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Votre message</label>
+                    <textarea id="message" placeholder="Votre message" required></textarea>
+                </div>
+                <div class="button-container">
+                    <button type="submit" class="email-button">
+                        <i class="fas fa-envelope"></i> Envoyer
+                    </button>
+                </div>
+            </form>
+        </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 - Jérémy Letisserand - Développeur de solutions numériques. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var email = "contact@exemple.com";
+            document.getElementById("email").innerText = email;
+        });
+    </script>
 </body>
 
 </html>
